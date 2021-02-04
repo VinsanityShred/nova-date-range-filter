@@ -2,6 +2,7 @@
 
 namespace Ampeco\Filters;
 
+use Illuminate\Http\Request;
 use Laravel\Nova\Filters\Filter;
 
 abstract class DateRangeFilter extends Filter
