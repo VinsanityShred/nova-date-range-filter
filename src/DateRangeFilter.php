@@ -22,4 +22,9 @@ abstract class DateRangeFilter extends Filter
     {
         return $this->withMeta(['placeholder' => $placeholder]);
     }
+
+    public function options(Request $request)
+    {
+        return [];
+    }
 }
